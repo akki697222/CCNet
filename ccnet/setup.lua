@@ -1,6 +1,7 @@
 function mkdir(directory)
     print("Creating Dir: ", directory)
     shell.run("mkdir ", directory)
+    sleep(0.2)
 end
 
 function cd(path)
@@ -23,24 +24,25 @@ function createAllDir()
 end
 
 function wget(name, path) --path format: "path/file/"
-    print("Downloading Package: ",name,".lua")
-    shell.run("wget https://raw.githubusercontent.com/akki697222/CCNet/main/ccnet/",path,name,".lua")
+    print("Downloading Package:",name)
+    shell.run("wget https://raw.githubusercontent.com/akki697222/CCNet/main/ccnet/"..tostring(path)..tostring(name)..".lua")
 end
 
 function wgetAll()
     cd("/configs/api")
-    wget("network-api-config")
+    wget("network-api-config", "configs/api/")
     cd("/config/common")
-    wget("ping-config")
+    wget("ping-config", "configs/common/")
     cd("/network/api")
-    wget("network-api")
+    wget("network-api", "network/api/")
     cd("/network/common")
-    wget("ping")
+    wget("ping", "network/common/")
 end
 
 function setup()
     createAllDir()
     wgetAll()
+    cd("/")
 end
 
 setup()
