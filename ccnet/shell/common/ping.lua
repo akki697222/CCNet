@@ -1,9 +1,9 @@
 --packages
-local network = require("network.api.network-api")
-local util = require("network.common.util")
-local comms = require("network.common.comms")
+local network = require("/network/api/network-api")
+local util = require("/network/common/util")
+local comms = require("/network/common/comms")
 --configs
-local config = require("configs.client.client-config")
+local config = require("/configs/client/client-config")
 --main
 local ping = {}
 
