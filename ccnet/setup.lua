@@ -23,20 +23,22 @@ function createAllDir()
     createBasicDir()
 end
 
-function wget(name, path) --path format: "path/file/"
+function wget(name, path) --path format: "/path/file/"
     print("Downloading Package:",name)
-    shell.run("wget https://raw.githubusercontent.com/akki697222/CCNet/main/ccnet/"..tostring(path)..tostring(name)..".lua")
+    shell.run("wget https://raw.githubusercontent.com/akki697222/CCNet/main/ccnet"..tostring(path)..tostring(name)..".lua")
 end
 
 function wgetAll()
     cd("/configs/api")
-    wget("network-api-config", "configs/api/")
+    wget("network-api-config", "/configs/api/")
     cd("/config/common")
-    wget("ping-config", "configs/common/")
+    wget("ping-config", "/configs/common/")
     cd("/network/api")
-    wget("network-api", "network/api/")
+    wget("network-api", "/network/api/")
     cd("/network/common")
-    wget("ping", "network/common/")
+    wget("ping", "/network/common/")
+    cd("/")
+    wget("startup", "/")
 end
 
 function setup()
