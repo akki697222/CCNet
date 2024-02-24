@@ -1,7 +1,7 @@
 function mkdir(directory)
     print("Creating Dir: ", directory)
     shell.run("mkdir ", directory)
-    sleep(0.2)
+    sleep(0.1)
 end
 
 function cd(path)
@@ -15,28 +15,38 @@ function createBasicDir()
 end
 
 function createAllDir()
+    mkdir("shell")
     mkdir("network")
     mkdir("configs")
     cd("/configs")
     createBasicDir()
     cd("/network")
     createBasicDir()
+    cd("/shell")
+    createBasicDir()
 end
 
-function wget(name, path) --path format: "path/file/"
+function wget(name, path) --path format: "/path/file/"
     print("Downloading Package:",name)
-    shell.run("wget https://raw.githubusercontent.com/akki697222/CCNet/main/ccnet/"..tostring(path)..tostring(name)..".lua")
+    cd(path)
+    shell.run("wget https://raw.githubusercontent.com/akki697222/CCNet/main/ccnet"..tostring(path)..tostring(name)..".lua")
 end
 
 function wgetAll()
-    cd("/configs/api")
-    wget("network-api-config", "configs/api/")
-    cd("/config/common")
-    wget("ping-config", "configs/common/")
-    cd("/network/api")
-    wget("network-api", "network/api/")
-    cd("/network/common")
-    wget("ping", "network/common/")
+    --download config
+    wget("api-config", "/configs/api/")
+    wget("network-api-config", "/configs/api/")
+    wget("network-api-connection-config", "/configs/api/")
+    wget("client-config", "/configs/client/")
+    wget("common-config", "configs/common/")
+    --download networks
+    wget("network-api", "/network/api/")
+    wget("comms", "/network/common/")
+    wget("util", "/network/common/")
+    --download shells
+    wget("ping", "/shell/common/")
+    --download startup(for main-loop, not used)
+    wget("startup", "/")
 end
 
 function setup()
