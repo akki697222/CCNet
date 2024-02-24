@@ -1,7 +1,7 @@
 --packages
-local network = require("api.network-api")
-local util = require("common.util")
-local comms = require("common.comms")
+local network = require("network.api.network-api")
+local util = require("network.common.util")
+local comms = require("network.common.comms")
 --configs
 local config = require("configs.client.client-config")
 --main

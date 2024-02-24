@@ -1,4 +1,4 @@
-local comms = require("common.comms")
+local comms = require("network.common.comms")
 
 
 local network = {}
