@@ -1,0 +1,233 @@
+0: [23:31:26 632] [update]     loading apis..                                                      
+1: [23:31:26 640] [info]       loaded api: fuzzy_find                                              
+2: [23:31:26 645] [info]       loaded api: log                                                     
+3: [23:31:26 651] [info]       loaded api: pixelbox                                                
+4: [23:31:26 665] [info]       loaded api: sevensh                                                 
+5: [23:31:26 669] [info]       loaded api: termtools                                               
+6: [23:31:26 673] [info]       loaded api: text                                                    
+7: [23:31:26 673] [info]                                                                           
+8: [23:31:26 673] [update]     loading presets..                                                   
+9: [23:31:26 679] [info]       loaded preset: rect > border                                        
+10: [23:31:26 682] [info]      loaded preset: rect > frame                                         
+11: [23:31:26 685] [info]      loaded preset: rect > frame_thick                                   
+12: [23:31:26 690] [info]      loaded preset: rect > framed_window                                 
+13: [23:31:26 695] [info]      loaded preset: rect > window                                        
+14: [23:31:26 700] [info]      loaded preset: tex > brick                                          
+15: [23:31:26 703] [info]      loaded preset: tex > checker                                        
+16: [23:31:26 703] [info]                                                                          
+17: [23:31:26 705] [success]   finished loading                                                    
+18: [23:31:26 705] [info]                                                                          
+19: [23:31:26 777] [update]    creating gui object..                                               
+20: [23:31:26 777] [update]    set up updater                                                      
+21: [23:31:26 777] [info]      Display object: term                                                
+22: [23:31:26 777] [info]                                                                          
+23: [23:31:26 777] [info]      Starting creator..                                                  
+24: [23:31:26 780] [info]      Found animation ease_in                                             
+25: [23:31:26 780] [info]      Found animation ease_in_back                                        
+26: [23:31:26 780] [info]      Found animation ease_in_cubic                                       
+27: [23:31:26 780] [info]      Found animation ease_in_elastic                                     
+28: [23:31:26 780] [info]      Found animation ease_in_expo                                        
+29: [23:31:26 780] [info]      Found animation ease_in_out                                         
+30: [23:31:26 780] [info]      Found animation ease_in_out_back                                    
+31: [23:31:26 780] [info]      Found animation ease_in_out_cubic                                   
+32: [23:31:26 780] [info]      Found animation ease_in_out_elastic                                 
+33: [23:31:26 780] [info]      Found animation ease_in_out_expo                                    
+34: [23:31:26 780] [info]      Found animation ease_in_out_quad                                    
+35: [23:31:26 780] [info]      Found animation ease_in_out_quart                                   
+36: [23:31:26 780] [info]      Found animation ease_in_out_quint                                   
+37: [23:31:26 780] [info]      Found animation ease_in_out_sine                                    
+38: [23:31:26 780] [info]      Found animation ease_in_quad                                        
+39: [23:31:26 780] [info]      Found animation ease_in_quart                                       
+40: [23:31:26 780] [info]      Found animation ease_in_quint                                       
+41: [23:31:26 780] [info]      Found animation ease_in_sine                                        
+42: [23:31:26 780] [info]      Found animation ease_out                                            
+43: [23:31:26 780] [info]      Found animation ease_out_back                                       
+44: [23:31:26 780] [info]      Found animation ease_out_cubic                                      
+45: [23:31:26 780] [info]      Found animation ease_out_elastic                                    
+46: [23:31:26 780] [info]      Found animation ease_out_expo                                       
+47: [23:31:26 780] [info]      Found animation ease_out_quad                                       
+48: [23:31:26 780] [info]      Found animation ease_out_quart                                      
+49: [23:31:26 780] [info]      Found animation ease_out_quint                                      
+50: [23:31:26 780] [info]      Found animation ease_out_sine                                       
+51: [23:31:26 780] [info]      Found animation flip                                                
+52: [23:31:26 780] [info]      Found animation linear                                              
+53: [23:31:26 780] [info]                                                                          
+54: [23:31:26 782] [update]    loading object: button                                              
+55: [23:31:26 920] [update]    loading object: circle                                              
+56: [23:31:26 945] [update]    loading object: ellipse                                             
+57: [23:31:26 977] [update]    loading object: frame                                               
+58: [23:31:26 991] [update]    loading object: group                                               
+59: [23:31:27 012] [update]    loading object: inputbox                                            
+60: [23:31:27 024] [update]    loading object: progressbar                                         
+61: [23:31:27 049] [update]    loading object: rectangle                                           
+62: [23:31:27 062] [update]    loading object: script                                              
+63: [23:31:27 074] [update]    loading object: scrollbox                                           
+64: [23:31:27 084] [update]    loading object: switch                                              
+65: [23:31:27 098] [update]    loading object: text                                                
+66: [23:31:27 111] [update]    loading object: triangle                                            
+67: [23:31:27 123] [info]                                                                          
+68: [23:31:27 123] [update]    loading text object...                                              
+69: [23:31:27 123] [info]                                                                          
+70: [23:31:27 123] [success]   finished creating gui object!                                       
+71: [23:31:27 123] [info]                                                                          
+72: [23:31:27 139] [update]    set up updater                                                      
+73: [23:31:27 139] [info]      Display object: term                                                
+74: [23:31:27 139] [info]                                                                          
+75: [23:31:27 139] [info]      Starting creator..                                                  
+76: [23:31:27 140] [info]      Found animation ease_in                                             
+77: [23:31:27 140] [info]      Found animation ease_in_back                                        
+78: [23:31:27 140] [info]      Found animation ease_in_cubic                                       
+79: [23:31:27 140] [info]      Found animation ease_in_elastic                                     
+80: [23:31:27 140] [info]      Found animation ease_in_expo                                        
+81: [23:31:27 140] [info]      Found animation ease_in_out                                         
+82: [23:31:27 140] [info]      Found animation ease_in_out_back                                    
+83: [23:31:27 140] [info]      Found animation ease_in_out_cubic                                   
+84: [23:31:27 140] [info]      Found animation ease_in_out_elastic                                 
+85: [23:31:27 140] [info]      Found animation ease_in_out_expo                                    
+86: [23:31:27 140] [info]      Found animation ease_in_out_quad                                    
+87: [23:31:27 140] [info]      Found animation ease_in_out_quart                                   
+88: [23:31:27 140] [info]      Found animation ease_in_out_quint                                   
+89: [23:31:27 140] [info]      Found animation ease_in_out_sine                                    
+90: [23:31:27 140] [info]      Found animation ease_in_quad                                        
+91: [23:31:27 140] [info]      Found animation ease_in_quart                                       
+92: [23:31:27 140] [info]      Found animation ease_in_quint                                       
+93: [23:31:27 140] [info]      Found animation ease_in_sine                                        
+94: [23:31:27 140] [info]      Found animation ease_out                                            
+95: [23:31:27 140] [info]      Found animation ease_out_back                                       
+96: [23:31:27 140] [info]      Found animation ease_out_cubic                                      
+97: [23:31:27 140] [info]      Found animation ease_out_elastic                                    
+98: [23:31:27 140] [info]      Found animation ease_out_expo                                       
+99: [23:31:27 140] [info]      Found animation ease_out_quad                                       
+100: [23:31:27 140] [info]     Found animation ease_out_quart                                      
+101: [23:31:27 140] [info]     Found animation ease_out_quint                                      
+102: [23:31:27 140] [info]     Found animation ease_out_sine                                       
+103: [23:31:27 140] [info]     Found animation flip                                                
+104: [23:31:27 140] [info]     Found animation linear                                              
+105: [23:31:27 140] [info]                                                                         
+106: [23:31:27 141] [update]   loading object: button                                              
+107: [23:31:27 141] [update]   loading object: circle                                              
+108: [23:31:27 142] [update]   loading object: ellipse                                             
+109: [23:31:27 142] [update]   loading object: frame                                               
+110: [23:31:27 142] [update]   loading object: group                                               
+111: [23:31:27 143] [update]   loading object: inputbox                                            
+112: [23:31:27 144] [update]   loading object: progressbar                                         
+113: [23:31:27 144] [update]   loading object: rectangle                                           
+114: [23:31:27 144] [update]   loading object: script                                              
+115: [23:31:27 144] [update]   loading object: scrollbox                                           
+116: [23:31:27 145] [update]   loading object: switch                                              
+117: [23:31:27 145] [update]   loading object: text                                                
+118: [23:31:27 145] [update]   loading object: triangle                                            
+119: [23:31:27 147] [info]                                                                         
+120: [23:31:27 147] [update]   loading text object...                                              
+121: [23:31:27 147] [info]                                                                         
+122: [23:31:27 150] [info]     created new frame > a2ca793b-a730-458d-b82a-b9ce173456ff            
+123: [23:31:27 166] [update]   Loading nimg texture..                                              
+124: [23:31:27 166] [update]   Loading nimg texture..                                              
+125: [23:31:27 166] [update]   Loading nimg texture..                                              
+126: [23:31:27 292] [info]     created new inputbox > f07839de-77cd-426a-891e-fd3afa2f245c         
+127: [23:31:27 295] [info]     created new text > 8a2bbf5a-9e58-4916-8cb3-0469717b7c78             
+128: [23:31:27 316] [info]     created new text > e0602624-3037-4320-b5bc-2e750411fc6b             
+129: [23:31:27 332] [info]     created new text > 416cd9fa-d1b4-4325-ab7d-8e67f025f0fa             
+130: [23:31:27 352] [info]     created new text > af435764-fea6-44fb-9e7e-7903e6b45891             
+131: [23:31:27 368] [info]     created new switch > 60827aac-5632-46ce-9a39-aab54471d241           
+132: [23:31:27 385] [info]     created new text > 76708194-bce9-4620-aa73-c8c51fc60967             
+133: [23:31:27 402] [info]     created new script > e5e029b9-813c-4557-b281-a64607fe3496           
+134: [23:31:27 417] [info]     created new switch > 9359a4cf-b8e1-45f0-a666-db4121082c26           
+135: [23:31:27 435] [info]     created new text > 8397cce5-b908-4b93-870d-1321f3af3618             
+136: [23:31:27 453] [info]     created new script > 920b0161-570d-4427-a240-a1123d12630f           
+137: [23:31:27 474] [info]     created new switch > 2f0a092c-57b0-465b-83af-942d12f86e96           
+138: [23:31:27 492] [info]     created new text > 238f9c0f-49cc-47e4-9be7-2cfb421827f6             
+139: [23:31:27 509] [info]     created new script > 0b811d32-ae98-44c1-bd1f-55a67c2b0cb8           
+140: [23:31:27 528] [info]     created new switch > c39abdaf-6935-4968-b9d5-d3ed67ddd59d           
+141: [23:31:27 547] [info]     created new text > 7cce32ad-67ec-4f8e-9365-2d492bcabeaa             
+142: [23:31:27 561] [info]     created new script > 4b3e49ae-1216-4fd2-8a58-740233b1e611           
+143: [23:31:27 580] [info]     created new switch > 977bed90-1174-4d61-8b85-d0f5b91031c5           
+144: [23:31:27 597] [info]     created new text > 3a142d1e-5377-4d93-8106-4daa560011e2             
+145: [23:31:27 615] [info]     created new script > ac76aed5-1bcd-442f-9df8-3a41746d153e           
+146: [23:31:27 632] [info]     created new switch > f4ab9c5e-fc06-4dbb-9848-da046b1bb1c2           
+147: [23:31:27 653] [info]     created new text > f7606fbb-bd63-4d64-a30d-d94cd9211689             
+148: [23:31:27 677] [info]     created new script > 50bce836-3d4d-4b8a-8087-5d1f92eb1d20           
+149: [23:31:27 698] [info]     created new switch > 4fb2fb28-b8a8-47bb-a627-d63f7573e877           
+150: [23:31:27 715] [info]     created new text > 09666f70-a946-4cd4-b41f-d1f77ca652a2             
+151: [23:31:27 732] [info]     created new script > 76fe891d-7d69-44af-bc5e-57e7663c7f3a           
+152: [23:31:27 751] [info]     created new switch > c459560f-f927-4280-8865-82b6d543e7d9           
+153: [23:31:27 770] [info]     created new text > 6a3d9ef9-37f1-4e7a-82e9-d2a6009a6222             
+154: [23:31:27 787] [info]     created new script > 80b1d822-ebd9-4691-9c8d-400b71d80c80           
+155: [23:31:27 803] [info]     created new switch > 00ecdc28-a840-49b7-a5f7-c547276a61df           
+156: [23:31:27 823] [info]     created new text > ae302d9c-825b-4916-a731-872f7e05ee5b             
+157: [23:31:27 841] [info]     created new script > be884ba3-4978-4a5a-a2b0-126c66aa239d           
+158: [23:31:27 856] [info]     created new switch > f453a055-c9ea-4465-be09-ec3d7dd00b5a           
+159: [23:31:27 871] [info]     created new text > d71efe70-b7b6-47af-b0cb-8098dd0a4d6d             
+160: [23:31:27 891] [info]     created new script > 6dccd7f1-6ece-48ff-b112-80cc9da0014b           
+161: [23:31:27 910] [info]     created new switch > 0da01c9d-8fd6-4389-9a81-abe1ecaced51           
+162: [23:31:27 925] [info]     created new text > b257f77b-671d-4eab-ad50-217eb42a0b38             
+163: [23:31:27 942] [info]     created new script > 318cf674-10bb-4a58-9208-8af7c61a60e3           
+164: [23:31:27 961] [info]     created new switch > 56f270a7-b89a-4aae-897f-e4e4da6497c9           
+165: [23:31:27 980] [info]     created new text > 862709ad-b851-4b13-8714-8b7e99223d85             
+166: [23:31:27 998] [info]     created new script > 11a2d58f-b7a4-428d-be8b-0e605de5a492           
+167: [23:31:28 013] [info]     created new switch > 6c2f1a9f-7f22-402a-a399-09568ca37415           
+168: [23:31:28 032] [info]     created new text > 0f754e3c-5b31-45ff-a9ae-2e9f019eeff7             
+169: [23:31:28 059] [info]     created new script > b94d36a0-6635-4121-8ecf-bcdc10042c9c           
+170: [23:31:28 079] [info]     created new switch > d9a7fbd3-346d-4842-abbf-20bbbbd673f6           
+171: [23:31:28 096] [info]     created new text > 09dde435-1859-4ef1-a881-5a5ee82f4d1e             
+172: [23:31:28 115] [info]     created new script > 85fa93ea-b44e-4110-a94c-ce8fe8082fb6           
+173: [23:31:28 132] [info]     created new switch > cebd03a4-4a03-4b9c-b2fe-37338bc88cc9           
+174: [23:31:28 149] [info]     created new text > b54560c5-5136-424e-be4e-4b5a444a98d2             
+175: [23:31:28 166] [info]     created new script > a6620172-7bf3-4786-ab69-8fa7acce3882           
+176: [23:31:28 187] [info]     created new switch > f41f4bd2-21d1-4241-8f93-383f5d4f0177           
+177: [23:31:28 206] [info]     created new text > d821864e-40d4-484d-a253-6541f6e9ca55             
+178: [23:31:28 221] [info]     created new script > 02c048cf-6321-47d2-9d19-e98be087c086           
+179: [23:31:28 238] [info]     created new switch > 5781ab85-6813-439e-a4c0-c24b9ccb406d           
+180: [23:31:28 257] [info]     created new text > 2a869cb1-c9f5-4706-b176-2a6759627f9c             
+181: [23:31:28 276] [info]     created new script > b6c9215f-c5d7-46a7-9253-3640ef087e2a           
+182: [23:31:28 296] [info]     created new switch > 1270b264-3f68-4c3a-a3dd-49925f565767           
+183: [23:31:28 318] [info]     created new text > 23509776-4792-4cf1-8926-fb7ceb5d842d             
+184: [23:31:28 335] [info]     created new script > 76181d05-d410-4e91-a46a-e802311bc048           
+185: [23:31:28 355] [info]     created new switch > fd4016ea-7f56-4038-8d92-6e33823a3af8           
+186: [23:31:28 372] [info]     created new text > 11489c62-183a-4cdd-b339-1279e2cff34f             
+187: [23:31:28 392] [info]     created new script > da9dffd5-c534-4f24-8b9a-f1b07ea9c76d           
+188: [23:31:28 415] [info]     created new switch > c27e4c3f-509d-44c1-ae2f-e4dc95f07b5f           
+189: [23:31:28 433] [info]     created new text > 23eed987-1077-42d5-b54a-db6840174990             
+190: [23:31:28 452] [info]     created new script > e88ddaf5-16a5-4d9f-9291-4a33f9d05106           
+191: [23:31:28 469] [info]     created new switch > a0653943-a8bb-4bc5-a2b5-20bde1ac4879           
+192: [23:31:28 486] [info]     created new text > 07a5db28-697a-4ac1-a0a7-306e0b9875b2             
+193: [23:31:28 505] [info]     created new script > 940856e7-8883-4a51-8c01-5ec73fd7a58c           
+194: [23:31:28 520] [info]     created new switch > 0f814ac5-9709-427b-a3eb-7f353b92b2b0           
+195: [23:31:28 536] [info]     created new text > 068aa5c9-aa3f-43d3-a9b2-0d499a4304bc             
+196: [23:31:28 549] [info]     created new script > 32199151-59e1-43e8-8577-d0c4ae79e426           
+197: [23:31:28 566] [info]     created new button > fce0361d-1afc-4123-b9a2-7cedf06ecb74           
+198: [23:31:28 588] [info]     created new rectangle > 472462f9-85be-4923-8810-ea3ffdfec411        
+199: [23:31:28 616] [info]     created new rectangle > 836ae8f0-1fc2-4460-a075-a654cc73476d        
+200: [23:31:28 640] [info]     created new text > e19e4002-31d2-4d59-af8c-d5f205bf635a             
+201: [23:31:28 670] [info]                                                                         
+202: [23:31:28 670] [update]   loading execute..                                                   
+203: [23:31:28 670] [update]   created graphic routine 1                                           
+204: [23:31:28 670] [update]   created custom updater                                              
+205: [23:31:28 670] [update]   created event listener handle                                       
+206: [23:31:28 670] [update]   created graphic routine 2                                           
+207: [23:31:28 670] [update]   Created position updater                                            
+208: [23:31:28 670] [info]     created key handler                                                 
+209: [23:31:28 694] [info]                                                                         
+210: [23:31:28 694] [success]  Started execution..                                                 
+211: [23:31:28 694] [info]                                                                         
+212: [23:31:29 321] [info]     created new rectangle > 51870eb8-b226-4fce-b67b-466c37ee6e6a        
+213: [23:31:29 339] [info]     created new rectangle > f1f60021-63ad-4870-bde1-5eb80922b5a3        
+214: [23:31:29 354] [info]     created new text > 6fc26716-7d46-4c84-9784-69bed169f713             
+215: [23:31:29 369] [info]     created new button > be11960f-b1e6-4151-aa0a-1e7733644ceb           
+216: [23:31:29 392] [info]     created new text > 72b2621e-59c7-430a-bc62-459b3e7ff4bc             
+217: [23:31:29 409] [info]     created new text > 5c6f404c-fdb5-41fb-b7fe-49e1ce439a78             
+218: [23:31:29 426] [info]     created new text > 3fbe364a-56bc-495a-bc23-6a207be2679d             
+219: [23:31:29 444] [info]     created new text > a42fda64-1261-4e8d-a7ae-11d325dcb409             
+220: [23:31:29 462] [info]     created new button > f5f73a07-c8ff-4f6c-8888-f07d277f9811           
+221: [23:31:31 095] [info]     created new rectangle > a414818f-1f77-46e5-9f6f-cd1ca3bc8152        
+222: [23:31:31 115] [info]     created new rectangle > 3eb0dde5-9db9-48e4-89ad-77e71587c5c9        
+223: [23:31:31 136] [info]     created new text > 61e2e074-7e88-4730-a9aa-b380269ce629             
+224: [23:31:31 154] [info]     created new progressbar > 6366ed40-7c83-4483-a6f1-2e58057a9909      
+225: [23:31:31 179] [info]     created new text > b708152c-3566-4c01-8fc0-0b0d5d5ab28a             
+226: [23:31:31 195] [info]     created new script > 4f495816-c303-48c2-abdc-be899f08c54d           
+227: [23:31:31 215] [info]     created new text > ee01de11-55f7-46db-8010-222943d90311             
+228: [23:31:31 236] [info]     created new text > b48fe4aa-860a-43a0-b99d-92aa712c7bde             
+229: [23:31:31 257] [info]     created new button > 6fe2305c-f849-4428-9e99-0274fcad6a55           
+230: [23:31:36 534] [fatal]    a Fatal error occured: installing finished stack traceback:
+	...iH/core/gui_object.lua:661: in field 'execute'
+	/guih_install.lua:507: in main chunk   
