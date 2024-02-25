@@ -12,6 +12,6 @@ local button = main --> Basalt returns an instance of the object on most methods
 local label = main
         :addLabel()
         :setText("akki_kayo")
-        :setFontSize(3)
+        :setFontSize(2)
 
 basalt.autoUpdate()
