@@ -60,6 +60,7 @@ function pre_install()
         mkdirall()
         print("Donwloading installation package...")
         wgetpackages()
+        cd("/")
     end 
 end
 
