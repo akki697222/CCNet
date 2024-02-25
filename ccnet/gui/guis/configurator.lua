@@ -1,6 +1,4 @@
 local basalt = require("/gui/basalt")
-local config = require("/api/config/network-Core-Config")
-local log = require("/api/logger-Core")
 local main = basalt.createFrame()
 
 local sub = {
