@@ -1,6 +1,5 @@
 local network = require("/api/network/network-Core")
 local config = require("/api/config/network-Core-Config")
-local channel = config.getUserChannel
 
 network.transmit(32002, "ping")
 if network.receive() == "ping" then
