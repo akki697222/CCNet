@@ -14,7 +14,7 @@ local input = main:addInput():setSize(6,1):setPosition(16,3):setDefaultText("320
 main:addButton():setSize(6, 1):setPosition(23, 3):setText(" Send "):setBackground(colors.red):onClick(function()
     port = input:getValue()
     network.open(port)
-    basalt.debug(port)
+    basalt.debug("Ping sended to: ", port)
     if port ~= nil then
         ping.send(port)
     else
