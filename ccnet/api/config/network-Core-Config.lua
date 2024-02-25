@@ -5,4 +5,8 @@ function config.getUserChannel()
     return USER_CHANNEL
 end
 
+function config.setUserChannel(value)
+    USER_CHANNEL = value
+end
+
 return config
