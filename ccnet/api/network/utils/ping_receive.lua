@@ -4,12 +4,12 @@ local config = require("/api/config/network-Core-Config")
 local ping = {
     pkt_type = 0,
     src = 32001,
-    dest = config.USER_CHANNEL
+    dest = config.getUserChannel
 }
 
-if network.receive() == "ping" then
+if network.receive() == tostring(ping) then
     print("Ping received. returning pings.")
-    network.transmit(32001, "ping")
+    network.transmit(32001, tostring(ping))
 else
     print("Ping received. but received packet is invalid, so it will be discarded.")
 end

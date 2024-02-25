@@ -7,8 +7,8 @@ local ping = {
     dest = 32002
 }
 
-network.transmit(32002, "ping")
-if network.receive() == "ping" then
+network.transmit(32002, tostring(ping))
+if network.receive() == tostring(ping) then
     print("Pong!!")
 elseif network.receive() == nil then
     print("Timed Out.")
