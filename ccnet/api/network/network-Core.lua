@@ -11,6 +11,7 @@ function network.receive()
     repeat
         event, side, channel, replyChannel, message, distance = os.pullEvent("modem_message")
     until channel == config.getUserChannel()
+    print(message)
     return message
 end
 
