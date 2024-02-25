@@ -1,3 +1,3 @@
-local basalt = require"gui.basalt"
+local basalt = require("/gui/basalt")
 
 

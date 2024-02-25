@@ -15,6 +15,7 @@ function mkdirall()
     mkdir("network")
     mkdir("config")
     cd("/")
+    mkdir("apps")
     print("Directory creation has complete!!")
 end
 

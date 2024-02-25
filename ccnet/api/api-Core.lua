@@ -1,4 +1,4 @@
-local log = require"api.logger-Core"
+local log = require("logger-Core")
 local api = {}
 
 function api.load()

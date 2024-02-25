@@ -1,4 +1,4 @@
-local basalt = require("basalt") --load basalt
+local basalt = require("/gui/basalt") --load basalt
 local gui = {}
 
 function gui.load(layout_path)
