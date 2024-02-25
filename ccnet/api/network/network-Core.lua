@@ -3,7 +3,7 @@ local config = require("/api/config/network-Core-Config")
 local network = {}
 
 function network.transmit(channel, packet)
-    print("Transmitting Packet: channel "..channel" packet"..packet"")
+    print("Transmitting Packet: channel " .. channel .. " packet" .. packet)
     modem.transmit(channel, config.getUserChannel(), packet)
 end
 
