@@ -9,6 +9,7 @@ function ping.send(port)
 end
 
 function ping.receive()
+    network.open(config.getUserChannel())
     if network.receive() == "ping" then
         return true
     end
