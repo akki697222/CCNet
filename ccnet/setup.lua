@@ -64,7 +64,7 @@ function pre_install()
         mkdirall()
         print("Donwloading installation package...")
         wgetpackages()
-        cd("/")
+        shell.run("reboot")
     end 
 end
 
