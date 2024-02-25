@@ -1,5 +1,5 @@
-local api = require"api.api-Core"
-local config = require"api.config.logger-Core-Config"
+local api = require("/api/api-Core")
+local config = require("/api/config/logger-Core-Config")
 
 local log = {}
 
