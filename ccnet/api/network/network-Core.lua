@@ -4,7 +4,7 @@ local channels = config.getUserChannel
 local network = {}
 
 function network.transmit(channel, packet)
-    modem.transmit(channel, channel, packet)
+    modem.transmit(channel, channels, packet)
 end
 
 function network.receive()
