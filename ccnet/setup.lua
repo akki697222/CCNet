@@ -20,7 +20,18 @@ end
 
 function wgetpackages()
     print("Downloading GUI Package...")
-    
+    wget("basalt", "/gui/")
+    wget("gui-Core", "/gui/")
+    print("Downloading Application Package...")
+    wget("configurator", "/apps/")
+    print("Downloading API Package...")
+    wget("api-Core", "/api/")
+    wget("logger-Core", "/api/")
+    wget("controlpanel-Core", "/api/")
+    wget("network-Core", "/api/network/")
+    print("Initilizing&Downloading Config...")
+    wget("logger-Core-Config", "/api/config/")
+    wget("network-Core-Config", "/api/config/")
 end
 
 function cd(path)
@@ -40,10 +51,10 @@ function pre_install()
     print("yes or no")
     local input = read()
     if input ~= "yes" then
-        error("Install canceled")
+        error("Install canceled", 0)
     elseif input == "yes" then
         term.clear()
-        term.setCursorPos()
+        term.setCursorPos(1,1)
         print("Creating directory....")
         mkdirall()
         print("Donwloading installation package...")
