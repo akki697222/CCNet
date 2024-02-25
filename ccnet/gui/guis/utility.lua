@@ -21,7 +21,9 @@ end)
 --utility-receiveping
 main:addLabel():setText("Wait for receive ping"):setPosition(2,5)
 main:addButton():setSize(9, 1):setPosition(24,5):setBackground(colors.red):setText("Receive"):onClick(function()
-    ping.receive()
+    if ping.receive() == true then
+        basalt.debug("Ping Received!!")
+    end
 end)
 
 basalt.autoUpdate()

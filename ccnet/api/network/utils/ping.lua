@@ -6,14 +6,11 @@ local i = 0
 function ping.send(port)
     network.open(config.getUserChannel())
     network.transmit(port, "ping")
-    if network.receive() == "ping" then
-        return true
-    end
 end
 
 function ping.receive()
     if network.receive() == "ping" then
-        print("Ping received.")
+        return true
     end
 end
 
