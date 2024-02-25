@@ -1,11 +1,10 @@
-local modem = peripheral.find("modem")
+local modem = peripheral.find("modem") or error("modem not found", 0)
 local config = require("/api/config/network-Core-Config")
-local usr_channel = config.USER_CHANNEL
 
 local network = {}
 
 function network.transmit(channel, packet)
-    modem.transmit(channel, usr_channel, packet)
+    modem.transmit(channel, config.getUserChannel, packet)
 end
 
 function network.receive()
@@ -13,7 +12,7 @@ function network.receive()
     local i = 0
     while true do
         channel, message = os.pullEvent("modem_message")
-        if channel == usr_channel then
+        if channel == config.getUserChannel then
             break
         elseif i >= 5 then
             do return nil end

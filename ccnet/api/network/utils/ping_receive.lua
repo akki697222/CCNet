@@ -4,7 +4,7 @@ local config = require("/api/config/network-Core-Config")
 local ping = {
     pkt_type = 0,
     src = 32001,
-    dest = config.USER_CHANNEL
+    dest = config.getUserChannel
 }
 
 if network.receive() == "ping" then
