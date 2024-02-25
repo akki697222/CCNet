@@ -8,20 +8,11 @@ function network.transmit(channel, packet)
 end
 
 function network.receive()
-    local i = 0
-    while true do
-        local event, side, channel, replyChannel, message, distance
+    local event, side, channel, replyChannel, message, distance
+    repeat
         event, side, channel, replyChannel, message, distance = os.pullEvent("modem_message")
-        if channel == channels then
-            do return message end
-            break
-        elseif i >= 5 then
-            do return nil end
-            break
-        end
-        i = i + 1
-        sleep(1)
-    end
+    until channel == channels
+    return message
 end
 
 return network
