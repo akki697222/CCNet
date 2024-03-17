@@ -10,7 +10,7 @@ local menuItems = {
 
 local guis = {
     "/gui/guis/controlpanel.lua",
-    "/gui/guis/panel_server.lua" 
+    "/gui/guis/panel_server.lua"
 }
 
 local function drawMenu()
@@ -47,6 +47,11 @@ local function startMenu()
             print("Invalid choice. Please enter a number between 1 and " .. #menuItems)
         end
     end
+end
+
+if not fs.exists("log.txt") then
+    local file = fs.open("log.txt", "w")
+    file.write(os.time("local"))
 end
 
 startMenu()

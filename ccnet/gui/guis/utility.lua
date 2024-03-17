@@ -1,4 +1,5 @@
 local ping = require("/api/network/utils/ping")
+local config = require("/api/config/network-Core-Config")
 local network = require("/api/network/network-Core")
 local port = 32001
 local basalt = require("/gui/basalt")
@@ -7,10 +8,14 @@ local main = basalt.createFrame()
 
 main:addLabel():setText("CCNet - Utility"):setPosition(2, 1):setFontSize(1)
 main:addPane():setSize(51, 1):setPosition(1, 1):setBackground(colors.blue)
-main:addButton():setSize(3, 1):setPosition(48, 1):setText(" x "):setBackground(colors.red):onClick(function()shell.run("/gui/guis/controlpanel")end)
+main:addButton():setSize(3, 1):setPosition(48, 1):setText(" x "):setBackground(colors.red):onClick(function()
+    shell.run(
+        "/gui/guis/controlpanel")
+end)
 --utility-sendping
 main:addLabel():setText("Send ping to: "):setPosition(2, 3)
-local input = main:addInput():setSize(6,1):setPosition(16,3):setDefaultText("32001"):setInputLimit(5):setInputType("number")
+local input = main:addInput():setSize(6, 1):setPosition(16, 3):setDefaultText("32001"):setInputLimit(5):setInputType(
+    "number")
 main:addButton():setSize(6, 1):setPosition(23, 3):setText(" Send "):setBackground(colors.red):onClick(function()
     port = input:getValue()
     network.open(port)
@@ -22,8 +27,9 @@ main:addButton():setSize(6, 1):setPosition(23, 3):setText(" Send "):setBackgroun
     end
 end)
 --utility-receiveping
-main:addLabel():setText("Wait for receive ping"):setPosition(2,5)
-main:addButton():setSize(9, 1):setPosition(24,5):setBackground(colors.red):setText("Receive"):onClick(function()
+main:addLabel():setText("Wait for receive ping"):setPosition(2, 5)
+main:addLabel():setText("(Receive Port:" .. config.getUserChannel() .. ")"):setPosition(2, 6):setBackground(colors.gray)
+main:addButton():setSize(9, 1):setPosition(24, 5):setBackground(colors.red):setText("Receive"):onClick(function()
     if ping.receive() == true then
         basalt.debug("Ping Received!!")
     end
