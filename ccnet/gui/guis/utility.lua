@@ -28,7 +28,7 @@ main:addButton():setSize(6, 1):setPosition(23, 3):setText(" Send "):setBackgroun
 end)
 --utility-receiveping
 main:addLabel():setText("Wait for receive ping"):setPosition(2, 5)
-main:addLabel():setText("(Receive Port:" .. config.getUserChannel() .. ")"):setPosition(2, 6):setBackground(colors.gray)
+main:addLabel():setText("(Receive Port:" .. config.getUserChannel() .. ")"):setPosition(2, 6)
 main:addButton():setSize(9, 1):setPosition(24, 5):setBackground(colors.red):setText("Receive"):onClick(function()
     if ping.receive() == true then
         basalt.debug("Ping Received!!")
